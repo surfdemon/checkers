@@ -19,7 +19,8 @@
                     sprite.setScale(0.8);
                     this.addChild(sprite, 0);
                     var label = cc.LabelTTF.create("Hello World", "Arial", 40);
-                    label.setPosition(size.width / 2, size.height / 3);
+                    label.setColor({r: 0, g: 0, b: 255, a: 0});
+                    label.setPosition(size.width / 2, size.height / 6);
                     this.addChild(label, 1);
                   }
             });
